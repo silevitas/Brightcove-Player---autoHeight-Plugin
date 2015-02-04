@@ -17,3 +17,5 @@ v1.0, 2015-02-01: relies on data-video-id to be set in the player embed code
 
 # Requirements
 Requires the Brightcove Player, built upon the Video JS open-source player, available at [videojs.com](http://videojs.com).
+
+Plugin provided as-is and is not supported by Brightcove in any way, shape or form.
