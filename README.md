@@ -2,9 +2,13 @@
 A plugin to automatically set the player height according to a video's aspect ratio
 
 # Usage
-Add to your player, either through the Studio, Player Management API, or on-page. Initialise with the plugin name "autoHeight", with blank brackets: {}
+Add to your player, either through the Studio, Player Management API, or on-page.
 
 [script src="//example.com/plugins/autoHeight.js"][/script]
+
+Initialise with the plugin name "autoHeight", with blank brackets: {} in the Studio plugin config, or in page like this:
+
+[script]videojs('player').autoHeight();[/script]
 
 # Release notes
 v1.3, 2015-02-03: now follows brightcove plugin guidelines, fully portable
